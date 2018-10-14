@@ -2,6 +2,10 @@
 
 This game is imitation game of Nexon's the Kingdom of the Winds.
 
+## Server 
+
+For fast processing, The server performs message protocol interpretation through hashing.
+
 ## Screen Shot
 
 로그인 화면입니다.
