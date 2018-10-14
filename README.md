@@ -2,11 +2,17 @@
 
 This game is imitation game of Nexon's the Kingdom of the Winds.
 
-# Screen Shot
+## Screen Shot
+
+로그인 화면입니다.
 
 ![login](./images/login.PNG)
 
+주막 맵의 모습니다.
+
 ![home](./images/home.PNG)
+
+성 맵의 모습니다.
 
 ![main](./images/main.PNG)
 
