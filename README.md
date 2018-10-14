@@ -4,4 +4,4 @@ This game is imitation game of Nexon's the Kingdom of the Winds.
 
 # Screen Shot
 
-![login](./login.PNG)
+![login](./images/login.PNG)
