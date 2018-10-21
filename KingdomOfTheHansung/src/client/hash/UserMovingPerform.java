@@ -35,18 +35,15 @@ public class UserMovingPerform implements SignalPerform {
 		if (characterAnimationThread != null) {
 			int action = userActionKey.getAction();
 			
-			if (action < 4) { // ÀÌµ¿
+			if (action < 4) { // ì´ë™
 				GameMap gm = mainPanel.getGm();
 				characterAnimationThread.add(action);
 				characterAnimationThread.setXY(userActionKey.getPosX(), userActionKey.getPosY());
-				//characterAnimationThread.notifyThread();
 
 				gm.setMapValue(userActionKey.getOldX() / 60, userActionKey.getOldY() / 60, 1);
 				gm.setMapValue(userActionKey.getPosX() / 60, userActionKey.getPosY() / 60, 51);
-				/*System.out.println(userActionKey.getId()+"·ÎºÎÅÍ ÀÌµ¿½ÅÈ£°¡ µé¾î¿Ô½À´Ï´Ù." +
-						 userActionKey.getPosX()+ " // "+ userActionKey.getPosY() + "// old // " +userActionKey.getOldX() + "//"+ userActionKey.getOldY()+ " // " +
-						 userActionKey.getAction());*/
-			}else{ // °ø°Ý
+
+			}else{ // ê³µê²©
 				characterAnimationThread.add(CharacterAction.SPACE);
 				characterAnimationThread.add(action);
 			}
