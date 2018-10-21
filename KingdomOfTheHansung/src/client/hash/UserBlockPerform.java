@@ -23,7 +23,6 @@ public class UserBlockPerform implements SignalPerform {
 
 	@Override
 	public void performAction(SignalKey signalKey) {
-		System.out.println("User Block!!!");
 		UserActionKey userMovingKey = (UserActionKey) signalKey;
 		mp = koth.getViewManager().getMainPanel();
 		MyCharacterAnimationThread cat = mp.getMyCharacterAnimationThread();
@@ -36,7 +35,6 @@ public class UserBlockPerform implements SignalPerform {
 		wrongPos.setMovingY(userMovingKey.getMovingY());
 		
 		mp.repaint();
-		//mp.getThread().interrupt();
 	} 
 	
 
