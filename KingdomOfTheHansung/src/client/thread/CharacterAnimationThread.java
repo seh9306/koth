@@ -43,19 +43,16 @@ public class CharacterAnimationThread extends Thread {
 				try {
 					String msg = msgQueue.take();
 					if(msg != null && !msg.equals("")){
-						System.out.println(msg+"메세지가 추가");
 						userPosInfo.setMsg(msg);
 						mainPanel.repaint();
 						sleep(3000);
 						userPosInfo.setMsg(null);
-						System.out.println("말풍선 사라진다.");
 						mainPanel.repaint();
 					}
 				} catch (InterruptedException e) {
 					userPosInfo.setMsg(null);
 					mainPanel.repaint();
 					e.printStackTrace();
-					System.out.println("메세지가 또 들어옴");
 				}
 			}
 		}
@@ -84,13 +81,11 @@ public class CharacterAnimationThread extends Thread {
 			try {
 				sleep(10);
 			} catch (InterruptedException e1) {
-				// TODO Auto-generated catch block
 				e1.printStackTrace();
 				return;
 			}
 			
 			while (userPosInfoVec.size() > 0) {
-				// System.out.println("안비엇다.");
 				action = userPosInfoVec.remove(0);
 				if(action == CharacterAction.SPACE){
 					isSpace = true;
@@ -189,8 +184,6 @@ public class CharacterAnimationThread extends Thread {
 	}
 
 	public void setXY(int x, int y) {
-		// if(!mainPanel.getId().equals(id))
-		// System.out.println(x+"/setXY/"+y);
 		newX = x;
 		newY = y;
 	}
