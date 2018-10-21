@@ -27,7 +27,6 @@ public class UserBlockPerform implements SignalPerform {
 		mp = koth.getViewManager().getMainPanel();
 		MyCharacterAnimationThread cat = mp.getMyCharacterAnimationThread();
 		cat.interrupt();
-		System.out.println(userMovingKey.getPosX()+"/BlockPerform/"+userMovingKey.getPosY());
 		UserPosInfo wrongPos = mp.getUserPosInfo();
 		wrongPos.setX(userMovingKey.getPosX()/60*60);
 		wrongPos.setY(userMovingKey.getPosY()/60*60);
