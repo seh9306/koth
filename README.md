@@ -10,15 +10,15 @@ For fast processing, The server performs message protocol interpretation through
 
 ## Client-to-client synchronization
 
-![ctcSync](./images/sync.GIF)
+![ctcSync](./images/sync.gif)
 
 ## Server-to-client synchronization
 
-![stcSync](./images/sync2.GIF)
+![stcSync](./images/sync2.gif)
 
 ## Login
 
-![login](./images/login.GIF)
+![login](./images/login.gif)
 
 ## Chatting
 
@@ -34,4 +34,4 @@ For fast processing, The server performs message protocol interpretation through
 
 ## Hunting
 
-![hunting](./images/hunting.GIF)
+![hunting](./images/hunting.gif)
