@@ -8,18 +8,30 @@ For fast processing, The server performs message protocol interpretation through
 
 ![hashing](./images/hashing.PNG)
 
-## Screen Shot
+## Client-to-client synchronization
 
-로그인 화면입니다.
+![ctcSync](./images/sync.GIF)
 
-![login](./images/login.PNG)
+## Server-to-client synchronization
 
-주막 맵의 모습니다.
+![stcSync](./images/sync2.GIF)
 
-![home](./images/home.PNG)
+## Login
 
-성 맵의 모습니다.
+![login](./images/login.GIF)
 
-![main](./images/main.PNG)
+## Chatting
 
-![main2](./images/main2.PNG)
+![chatting](./images/chatting.gif)
+
+## Moving Map
+
+![mapChange](./images/mapChange.gif)
+
+## Mount/Unmount Equipment
+
+![mEquipment](./images/mountEquip.gif)
+
+## Hunting
+
+![hunting](./images/hunting.GIF)
